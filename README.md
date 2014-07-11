@@ -9,7 +9,7 @@ The project contains a single app called **main** and there is a static files di
 Quick Instructions
 ---
 
-**To get started right away (assuming you have Python 2.6+ and Django 1.6 installed), just run the command `python manage.py runserver`, and you should be up and running at [http://localhost:8000](http://localhost:8000)!**
+To get started right away (assuming you have Python 2.6+ and Django 1.6 installed), just run the command `python manage.py runserver` from the **django_project** directory, and you should be up and running at [http://localhost:8000](http://localhost:8000)!
 
 ---
 
@@ -33,12 +33,12 @@ Detailed Instructions
 ###2. Initialize a database (optional)
 ***(This step is not required if you don't want use authorization, models, or any other database-related functions.)***
 
-1. In the **django-simple-starter** directory (the one with manage.py), run `python manage.py syncdb`
+1. In the **django_project** directory (the one with manage.py), run `python manage.py syncdb`
 2. When it offers to create a superuser, choose `Y` and enter a username, email address (optional), and password.
 
 
 ###3. Start the server
-1. In the **django-simple-starter** directory, run `python manage.py` runserver
+1. In the **django_project** directory, run `python manage.py` runserver
 2. Once running you'll be able to visit [http://localhost:8000](http://localhost:8000) in your browser. You should see a green "Hello, world" message if everything is working correctly.
 
 
